@@ -1,0 +1,44 @@
+# Python environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python bytecode and caches
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# Runtime logs and test artifacts
+logs/
+*.log
+.coverage
+coverage.xml
+htmlcov/
+.pytest_cache/
+
+# Temporary and editor files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Large model artifacts (keep outside Git)
+*.pte
+*.pt
+*.ptl
+*.pth
+*.bin
+*.gguf
+*.safetensors
+*.onnx
